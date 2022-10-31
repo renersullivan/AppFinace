@@ -81,16 +81,32 @@
   color: #ffff;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 30px;
 }
 .icon-icon {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 .deposit {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .withdraw {
+  font-size: 0.9375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: auto;
 }
+
 .transfer {
+  font-size: 0.9375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
