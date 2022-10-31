@@ -137,6 +137,7 @@
   }
 }
 .total-cash {
+  font-size: 15px;
   display: flex;
   flex-direction: column;
 
@@ -144,4 +145,7 @@
     display: flex;
     justify-content: flex-end;
   }
+}
+.balance-h1 {
+  font-size: 19px;
 }
