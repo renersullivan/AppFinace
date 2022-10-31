@@ -1,0 +1,70 @@
+.fundo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #5500ff;
+  padding: 0.9375rem;
+}
+.h1-title {
+  color: #ffffff;
+  font-size: 4.625rem;
+  font-weight: bolder;
+}
+.input-login {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  p {
+    text-align: left;
+    color: #9d9d9d;
+  }
+}
+.input-cpf {
+  border-radius: 1.9375rem;
+  width: 282px;
+  height: 52px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #9d9d9d;
+
+  margin-bottom: 7px;
+}
+.input-cpf:hover {
+  background-color: #ffffff;
+}
+.input-senha {
+  border-radius: 1.9375rem;
+  width: 282px;
+  height: 52px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #9d9d9d;
+}
+.btn-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn-skip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.btn-continue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  width: 142px;
+  height: 41px;
+  border-radius: 25px;
+}
