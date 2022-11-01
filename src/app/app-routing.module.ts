@@ -18,6 +18,10 @@ const routes: Routes = [
     loadChildren: () =>
       import('./pages/home/home.module').then((m) => m.HomePageModule),
   },
+  {
+    path: 'transference',
+    loadChildren: () => import('./transference/transference.module').then( m => m.TransferencePageModule)
+  },
 ];
 
 @NgModule({
