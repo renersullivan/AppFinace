@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
@@ -6,15 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
-  auth={
-      senha:'172018',
-      login:'rener',
-    }
-  }
-  constructor() {}
+  atuh: {
+    login: 'rener';
+    senha: '172018';
+  };
+  constructor(private httpclient: HttpClient) {}
 
   ngOnInit() {}
 
   fazerLogin() {
-    let
+    this.httpclient.get('http://127.0.0.1:3333/').subscribe=>{}};
+  }
 }
